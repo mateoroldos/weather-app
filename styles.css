@@ -1,0 +1,86 @@
+:root {
+    font-family: sans-serif;
+}
+
+.random {
+    min-height:100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.rain {
+    min-height:100%;
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 140, 255, 0.3)), url(https://images.unsplash.com/photo-1428592953211-077101b2021b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80);
+    background-size:cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.clouds {
+    min-height:100%;
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 140, 255, 0.3)), url(https://images.unsplash.com/photo-1517685352821-92cf88aee5a5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80);
+    background-size:cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.clear {
+    min-height:100%;
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 140, 255, 0.3)), url(https://images.unsplash.com/photo-1598020976584-b52bb2b05fc3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1491&q=80);
+    background-size:cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#label {
+    font-size: 26px;
+    text-align: center;
+}
+
+#city {
+    border-radius: 40px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    border: none;
+    background-color: rgb(214, 214, 214);
+    text-align: center;
+    padding: 8px;
+}
+
+#city:focus {
+    outline: none;
+}
+
+#submit-btn {
+    border: none;
+    background-color: black;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    max-width: 170px;
+    min-width: 110px;
+    padding: 8px;
+}
+
+#temperature {
+    color: rgb(0, 0, 0);
+    font-size: 70px;
+    margin-top: 50px;
+    text-align: center;
+} 
